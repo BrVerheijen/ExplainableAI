@@ -36,3 +36,23 @@ $(document).ready(function(){
         }
     });
 });
+
+function home(){document.querySelector('#home').scrollIntoView({
+    behavior: 'smooth'
+  });}
+
+function about() {document.querySelector('#about').scrollIntoView({
+    behavior: 'smooth'
+  });}
+
+function services(){document.querySelector('#services').scrollIntoView({
+    behavior: 'smooth'
+});}
+
+function skills(){document.querySelector('#skills').scrollIntoView({
+    behavior: 'smooth'
+  });}
+
+function teams(){document.querySelector('#teams').scrollIntoView({
+    behavior: 'smooth'
+});}

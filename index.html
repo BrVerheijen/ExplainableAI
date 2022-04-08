@@ -14,13 +14,13 @@
     <body>
         <nav class="navbar">
             <div class="max-width">
-                <div class="logo"><a href="#">MarioKart<span>AI</span></a></div>
+                <div class="logo"><a onclick="home()">MarioKart<span>AI</span></a></div>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Experimenten</a></li>
-                    <li><a href="#">Resultaat</a></li>
-                    <li><a href="#">Over ons</a></li>
+                    <li><a onclick="home()">Home</a></li>
+                    <li><a onclick="about()">Project</a></li>
+                    <li><a onclick="services()">Experimenten</a></li>
+                    <li><a onclick="skills()">Resultaat</a></li>
+                    <li><a onclick="teams()">Over ons</a></li>
                 </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -35,7 +35,7 @@
                     <div class="text-1">Artificial Intelligence Minor</div>
                     <div class="text-2">Mario Kart AI</div>
                     <div class="text-3">Explainable <span>AI</span></div>
-                    <a href="#">Project</a>
+                    <a href="#about">Project</a>
                 </div>
             </div>
         </section>
@@ -50,8 +50,8 @@
                     </div>
                     <div class="column right">
                         <div class="text">Wat is <span>Reinforcement Learning?</span></div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio, cumque debitis ex cum in excepturi perferendis hic doloremque vitae error itaque voluptas iste incidunt voluptatum nesciunt nulla consequatur reiciendis expedita enim nam totam at maiores? Debitis eaque officia architecto obcaecati soluta dolores fugiat non fugit, tempore labore cupiditate unde magnam nobis rerum rem. Aut praesentium neque deserunt consectetur ipsa!</p>
-                        <a href="#">Project</a>
+                        <p>Een van de populairste onderzoeksonderwerpen in het brede veld van Artificial Intelligence is Reinforcement Learning. Reinforcement Learning (RL) is een vorm van machine learning dat een agent in staat stelt om te leren in een interactieve omgeving. Dit gebeurt door middel van feedback die de agent ontvangt op basis van de acties die de agent in de omgeving neemt. Reinforcement Learning maakt gebruik van rewards en punishments voor goed en slecht gedrag. De agent bevindt zich continu in een bepaalde situatie oftewel state. Binnen de environment neemt de agent een bepaalde actie dat resulteert in een nieuwe state en feedback in de vorm van rewards. Het doel van Reinforcement Learning is om een geschikt model van acties te vinden dat de totale cumulatieve reward van de agent maximaliseert.</p>
+                        <a href="#">Lees meer</a>
                     </div>
                 </div>
             </div>
@@ -65,43 +65,43 @@
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 1</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Timesteps</div>
+                            <p>Het programma is getraind op verschillende aantallen timesteps, hierdoor is te zien hoe het programma zichzelf ontwikkeld.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 2</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Courses</div>
+                            <p>Het programma heeft op een aantal courses getraind, hierdoor is te zien hoe het programma zich ontwikkeld op verschillende courses.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 3</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Characters</div>
+                            <p>Het programma is getraind met alle verschillende character archetypes, hier is te zien hoe het programma zich ontwikkeld op ieder archetype.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 4</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Grand Prix</div>
+                            <p>Het programma is getraind op grand prix modus om te zien of het programma ook kan trainen wanneer er meerdere spelers zijn.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 5</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Reward Functions</div>
+                            <p>Het programma is getraind op verschillende reward functions om er achter te komen welke variablen het programma het meest sturen.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
-                            <div class="text">Experiment 6</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem pariatur unde fuga possimus cupiditate optio.</p>
+                            <div class="text">Learning Algorithms</div>
+                            <p>Er is gekeken naar verschillende mogelijkheden voor leeralgoritmes om tot een mogelijk beter resultaat te komen.</p>
                         </div>
                     </div>
                 </div>
@@ -115,8 +115,17 @@
                 <div class="skills-content">
                     <div class="column left">
                         <div class="text">Eindresultaat</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusantium suscipit rem ipsa atque autem consectetur temporibus, deleniti quam vel possimus cum, eius dolor molestiae dignissimos in. Eveniet saepe maiores, molestiae, totam ipsum autem atque, obcaecati dolore voluptates voluptatem quas expedita soluta excepturi libero magnam ratione beatae officiis quos inventore a. Perspiciatis veritatis vel doloremque qui omnis porro quos deleniti?</p> 
-                        <a href="#">Lees meer</a>                     
+                        <p>Het eindresultaat van ons project is een simpel programma dat in staat is om <a href="https://nl.wikipedia.org/wiki/Super_Mario_Kart">Super Mario Kart (Snes)</a> te spelen.
+                            Dit wordt gedaan door het programma op een bepaalde course te trainen, hier ontvangt het programma tijdens het trainen steeds rewards en slaat het het model op wat tot nu toe het beste getraind is.
+                            Hierdoor wordt het programma steeds iets beter in het leren van de course en kan hij deze uiteindelijk constant finishen.
+                        </p>
+                        <br>
+                        <p>
+                            Wij hebben voor de ontwikkeling van dit project gebruik gemaakt van <a href="https://openai.com/blog/gym-retro/">OpenAI Gym Retro (retro)</a> en <a href="https://stable-baselines3.readthedocs.io/en/master/">Stablebaselines3</a>. Hier is retro gebruikt voor het opzetten van de omgeving, waarin de agent begeeft en acties uitvoerd.
+                            Stablebaselines3 is gebruikt om een leeralgoritme toe te voegen en om inzichten te krijgen in hoe de agent zich ontwikkeld.
+                            Daarnaast is gebruik gemaakt van <a href="https://github.com/esteveste/gym-SuperMarioKart-Snes">een bestaand project</a> wat hetzelfde doel had als ons project. 
+                        </p>
+
                     </div>
                     <div class="column right">
                         <img src='images/SuperMarioGIF.gif' alt="Standard gif"/>
