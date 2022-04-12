@@ -7,6 +7,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -63,13 +66,36 @@
 }
 
 /* menu btn styling */
+/* menu btn styling */
 .menu-btn{
     color: #fff;
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
-
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
 /* home section styling */
 .home{
     display: flex;
@@ -80,7 +106,11 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-    margin: auto 0 auto 40px;
+    width: 100%;
+    display: flex;
+}
+.home .max-width .row{
+    margin-right: 0;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -118,7 +148,7 @@
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .teams{
+.about, .services, .skills, .teams, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -342,6 +372,21 @@ section .title::after{
     background: crimson!important;
 }
 
+/* footer section styling */
+footer{
+    background: lightgrey;
+    padding: 20px 23px;
+    color: #111;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
 /* responsive media query start */
 @media (max-width: 1300px){
     .home .max-width{
@@ -428,6 +473,12 @@ section .title::after{
         width: 100%;
         margin-bottom: 35px;
     }
+    .skills .skills-content .column img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    
 }
 
 @media (max-width: 690px){
