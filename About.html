@@ -36,10 +36,33 @@
           <h2 class="title">Wat is AI?</h2>
           <div class="ai-uitleg-content">
             <div class="column left">
-
+              <p>
+                Artificial Intelligence (AI) heeft betrekking op systemen of machines die de intelligentie van mensen kan nabootsen om taken uit te kunnen voeren. Met andere woorden het vermogen van computers om taken uit te voeren waarvoor mensen hun intelligentie inzetten. Voorbeelden zijn het kunnen interacteren met de omgeving, problemen oplossen en analyseren.                                  
+                Een algortime en data vormen de kern van Artificial Intelligence. Een algoritme is simpel gezegd een reeks instructies dat leidt tot een bepaald resultaat. Zo zijn de aanbevelingen die je krijgt op Netflix gebaseerd op een algoritme. Om deze aanbevelingen te kunnen doen heeft het algoritme data nodig. In dit geval is dat ons kijkgedrag en dat van anderen. 
+                Aan de hand van deze data leert het algoritme wat wij interessant vinden en op basis hiervan kan Netflix aanbevelingen doen. Artificial Intelligence kent ook een aantal subvelden waaronder Machine Learning en Deep Learning.
+                <img src="images/artificial_intelligence.png">
+              </p>
+              <br>
+              <p>
+                <h5>Toepassingen van AI</h5>
+                Tegenwoordig worden AI systemen op diverse plekken toegepast. Een voorbeeld is speech recognition oftewel spraakherkenning. Dit wordt onder andere gebruikt om menselijke spraak om te zetten naar geschreven tekst. Mobiele telefoons gebruiken deze technologie om op basis van spraakherkenning zoekopdrachten uit te kunnen voeren. 
+                Een andere bekend voorbeeld waarin Artificial Intelligence in terugkomt is zelfrijdende auto's. Via onder andere sensoren en camera's krijgt de auto informatie van de omgeving binnen en op basis van deze data is het mogelijk om de auto zelfstandig te laten rijden. 
+                Ook wordt AI toegepast in chatbots. Een chatbot is als het ware een computerprogramma dat gesprekken tussen mensen kan simuleren om. Chatbots zijn in staat om vragen van klanten sneller te begrijpen en gerichter antwoord geven. Dit komt bijvoorbeeld voor wanneer je naar een product zoekt en een schermpje verschijnt met de vraag 
+                of je hulp nodig hebt. Hierachter zitten chatbots.   
+              </p>            
+              <h5>Vormen van Artificial Intelligence</h5>
+              Artificial Intelligence kent verschillende vormen zoals supervised machine learning, unsupervised machine learning, reinforcement learning en deep learning. Bij supervised machine learning wordt de AI geholpen bij het leren. Hierbij is van tevoren al bekend wat de juiste uitkomst is en wat de relaties tussen de gegevens zijn. De gegevens zijn als het ware al gelabeld.
+              Hierdoor hoeft het algoritme niet zelf uit te zoeken wat al deze gegevens betekenen. Bijvoorbeeld een algoritme dat op basis van eigenschappen van een woning de waarde in kan schatten. Het algoritme krijgt eerst veel gegevens van eerdere verkochte huizen met de verkoopprijs, locatie, oppervlakte en andere kenmerken leert het op basis hiervan de relaties te herkennen.
+              Daarmee kan het algoritme bij een volgende woning nauwkeuriger de verkoopprijs bepalen. Daarentegen wordt bij unsupervised machine learning juist niet geprogrammeerd wat de juiste uitkomt is en welke gegevens relevant zijn. Hierbij leert het algoritme zelf de patronen te ontdekken. Dit gebeurt door het clusteren van de gegevens. Dit wil zeggen dat de gegevens die
+              bij elkaar horen worden geordend omdat ze met elkaar samenhangen. Zo worden bij de aanbevelingen die YouTube doet niet van tevoren allerlei categorieën bepaald. Dit doet het systeem namelijk zelf.
+              <br>
+              Bij reinforcement learning leert het algoritme om taken uit te voeren door het ontvangen van rewards (beloningen) voor de acties die de AI uitvoert. Denk bijvoorbeeld aan zelfrijdende auto's. Ergens tegenaan botsen is een slechte uitkomst en op tijd stil staan voor een boom is een goede uitkomst. Op basis van de beloningen die de AI krijgt leert de auto steeds beter welke beslissingen de AI 
+              moet nemen. Bij deep learning wordt vooral gebruik gemaakt van afbeeldingen, video's en geluidsopnamen. Deep learning algoritmes bestaan uit verschillende lagen. Elke laag leert steeds nieuwe en complexere kenmerken van de ingevoerde gegevens. Hiermee kan bijvoorbeeld een programma worden gemaakt dat een aantal vogelsoorten kan herkennen. Door het programma te voorzien van veel afbeeldingen van verschillende
+              vogels leert het welke kenmerken een vogel heeft. De ene laag analyseert de vorm, de andere laag de kleur en de volgende laag combineert de geanalyseerde kenmerken om de vogelsoort te herkennen.
+              <img src="images/deeplearning.png" alt="">
             </div>
             <div class="column right">
-
+              
             </div>
           </div>
         </div>
@@ -51,7 +74,13 @@
           <h2 class="title">Wat is Reinforcement Learning?</h2>
           <div class="rl-uitleg-content">
             <div class="column left">
-
+              Bij reinforcement learning leert de AI, ook wel agent genoemd, in een interactieve omgeving welke acties hij moet uitvoeren. Dit gebeurt met vallen en opstaan door verschillende acties uit te voeren en hier feedback op te krijgen. Deze feedback bestaat uit rewards en straffen die aangeven wat goed en slecht gedrag is. Bij reinforcement learning is het doel om gaandeweg een geschikt model voor de omgeving te leren welke acties uit te voeren waarmee 
+              de totale reward van de agent wordt gemaximaliseerd. Deze loop van het continu uitvoeren van acties en het ontvangen van rewards wordt de action-reward feedback loop genoemd. Dit is weergegeven in onderstaande figuur.
+              <img src="images/action_reward_feedback_loop.png" alt="">
+              De agent bevindt zich continu in een bepaalde state oftewel toestand. De agent neemt steeds een action in de omgeving dat weer leidt tot een nieuwe toestand. Voor iedere actie ontvangt de agent een reward. Deze reward kan zowel positief (goed gedrag) als negatief (slecht gedrag) zijn.
+              Bij elke actie vanuit een bepaalde toestand hoort een reward. Dit wordt ook wel de reward function genoemd. Bij het voorbeeld van een zelfrijdende auto zijn de meest cruciale acties gas geven, remmen en sturen die invloed hebben op het gedrag van de agent en de omgeving. Om de reward function te bepalen kunnen we naar verschillende aspecten kijken. Denk bijvoorbeeld aan het verbruik, de veiligheid van andere weggebruikers of het kiezen van de snelste route naar de bestemming.
+              Hierbij wordt een onderscheid gemaakt in rewards op de korte termijn en rewards op de lange termijn. Rewards op de korte termijn zijn op basis van bijvoorbeeld veilig rijden en op de lange termijn het uiteindelijk bereiken van de bestemming. Voor het nemen van goede acties ontvangt de agent bijvoorbeeld continu een reward van +10. Neemt de agent een slechte beslissing dan is de reward -10. Wanneer de agent continu goede acties uitvoert, ontvangt de agent steeds positieve rewards. Naarmate de agent dit langer 
+              weet vol te houden wordt de totale cumulatieve reward steeds hoger. Dit is uiteindelijk het doel van reinforcement learning om de totale cumulatieve reward te maximaliseren.
             </div>
             <div class="column right">
 
@@ -66,7 +95,9 @@
           <h2 class="title">Waar wordt Reinforcement Learning gebruikt?</h2>
           <div class="rl-examples-content">
             <div class="column left">
-
+              Reinforcement learning wordt onder andere toegepast bij zelfrijdende auto's. Hierbij dient de agent zelfstandig te leren rijden. Verder wordt reinforcement learning toegepast in robotica. Hierbij worden robots getraind om menselijke taken uit te voeren. In plaats van de robot precies te vertellen wat hij moet doen en wanneer, leert de robot dit zelf door middel van reinforcement learning. De robot leert hoe hij zich moet bewegen in een bepaalde omgeving. 
+              Een simpel voorbeeld is hoe de robot moet leren lopen. Vallen is een slechte uitkomst en een volgende stap is een goede uitkomst. Door deze acties continu uit te voeren leert de robot gaandeweg hoe groot de juiste stap is en daarmee uiteindelijk leert lopen. Naarmate het aantal pogingen toeneemt zal de robot steeds verder komen.
+              <img src="images/robot_reinforcement_learning.png" alt="">
             </div>
             <div class="column right">
 
@@ -81,6 +112,13 @@
           <h2 class="title">Mario Kart met Reinforcement Learning</h2>
           <div class="mario-ai-content">
             <div class="column left">
+              Reinforcement learning kan ook worden toegepast in games. In ons project hebben we onderzoek gedaan naar de mogelijkheden om reinforcement learning toe te passen in de game Super Mario Kart. Super Mario Kart is een racing game voor de Super Nintendo System (SNES). Spelers kunnen kiezen uit verschillende karakters zoals Mario, Luigi en Bowser. Ieder karakter heeft zijn eigen kenmerken en kwaliteiten qua snelheid en gewicht. Bij Super Mario Kart zijn ook verschillende game modes mogelijk zoals Time Trial en Grand Prix. 
+              Bij Time Trial moet de speler proberen op een geselecteerd circuit zo snel mogelijk 5 rondes af te leggen. Bij Grand Prix racet de speler tegen andere karakters. Ieder circuit kent ook zijn eigen obstakels en terrein. Voorbeelden zijn een olievlek waardoor de speler spint of een pijp die fungeert als muur. 
+
+              In dit geval probeer je als menselijke speler te winnen. De vraag nu was of het met reinforcement learning mogelijk is om de agent een model te laten leren welke acties hij moet nemen om bijvoorbeeld een ronde te rijden. Dit gebeurt opnieuw door middel van rewards. Voorbeelden van slecht gedrag zijn het rijden tegen een muur, het rijden tegen obstakels en tegen de richting in rijden. Goed gedrag is juist wanneer de agent checkpoints behaald. Checkpoints zijn bepaalde punten in een level die punten markeren waar een speler verder kan gaan als hij een leven verliest.
+              Door middel van deze rewards leert de agent wat goed en slecht gedrag is. Gaandeweg voert de agent uiteindelijk steeds meer de goede acties uit waarmee de totale reward wordt verhoogd. In dat geval lukt het de agent steeds beter om bijvoorbeeld 5 rondes op een circuit te voltooien.
+
+              <img src="images/mariokart.jpeg" alt="">
 
             </div>
             <div class="column right">
@@ -96,7 +134,11 @@
           <h2 class="title">Bronnen</h2>
           <div class="sources-content">
             <div class="column left">
-
+              <a href="https://www.kennisnet.nl/publicaties/artificial-intelligence/">https://www.kennisnet.nl/publicaties/artificial-intelligence/</a>
+              <a href="https://www.ibm.com/cloud/learn/what-is-artificial-intelligence">https://www.ibm.com/cloud/learn/what-is-artificial-intelligence</a>
+              <a href="https://www.oracle.com/nl/artificial-intelligence/what-is-ai/">https://www.oracle.com/nl/artificial-intelligence/what-is-ai/</a>
+              <a href="https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292">https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292</a>
+              <a href="https://www.mariowiki.com/Super_Mario_Kart">https://www.mariowiki.com/Super_Mario_Kart</a>
             </div>
             <div class="column right">
 
