@@ -1,0 +1,16 @@
+{
+    "Timestep":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende aantallen timesteps en workers getest, dit is gedaan om te kijken wat voor effect dit heeft op de groei van het model",
+            "Graph": "images/SuperMarioGIF.gif",
+            "timesteps": false
+        },
+        "Workers": {
+            "Text": "blablabla",
+            "Graph": "",
+            "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,1000000]
+        }
+    }
+}
