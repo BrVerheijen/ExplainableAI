@@ -12,5 +12,19 @@
             "timesteps": true,
             "timestep_options": [100000,200000,500000,1000000]
         }
+    },
+    "Courses":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende circuits getest om te kijken of een ander circuit leidt tot een ander model.",
+            "Graph": "images/Courses/circuits.png",
+            "timesteps": false
+        },
+        "Courses":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": ["images/Courses/mariocircuit.png", "images/Courses/bowsercastle.png", "images/Courses/koopabeach.png", "images/Courses/vanillalake.png", "images/Courses/rainbowroad.png"],
+            "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4", "videos/banana.mp4"],
+            "timesteps": true,
+            "timestep_options": ["MarioCircuit", "BowserCastle", "KoopaBeach", "VanillaLake", "RainbowRoad"]
+        }
     }
 }

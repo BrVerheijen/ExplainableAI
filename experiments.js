@@ -21,7 +21,7 @@ function ChangePageContent(){
         });
         $('#video-drop').attr("hidden", false);
         $('#video').attr("hidden",false);
-        
+
     }
 
     else{
@@ -38,6 +38,7 @@ function ChangeVideo(){
     experiment = $("#title").text();
     dropdown = $("#experiment-drop option:selected").text();
     video = $("#video-drop option:selected").val();
+    $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"][video]));
     $('#video').append(`<source id="source" src="${experiment_data[experiment][dropdown]["Video"][video]}">`);
     $('#video')[0].load();
 }
