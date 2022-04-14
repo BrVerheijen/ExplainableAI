@@ -787,3 +787,12 @@ footer span a:hover{
         font-size: 27px;
     }
 }
+
+/* Experiment Styling */
+.experiment-uitleg .experiment-uitleg-content .left{
+    width: 45%;
+}
+
+.experiment-uitleg .experiment-uitleg-content .right{
+    width: 55%;
+}

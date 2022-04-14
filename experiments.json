@@ -1,0 +1,139 @@
+{
+    "Timestep":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende aantallen timesteps en workers getest, dit is gedaan om te kijken wat voor effect dit heeft op de groei van het model",
+            "Graph": "images/SuperMarioGIF.gif",
+            "timesteps": false
+        },
+        "2_Workers": {
+            "Text": "blablabla",
+            "Graph": "images/Timesteps/2_workers_1000000.png",
+            "Video": ["videos/Workers/2WorkersMario100k.mp4", "videos/Workers/2WorkersMario200k.mp4","videos/Workers/2WorkersMario500k.mp4","videos/Workers/2WorkersMario750k.mp4","videos/Workers/2WorkersMario1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "4_workers":{
+            "Text": "blablabla",
+            "Graph": "images/Timesteps/4_workers_1000000.png",
+            "Video": ["videos/Workers/4WorkersMario100k.mp4", "videos/Workers/4WorkersMario200k.mp4","videos/Workers/4WorkersMario500k.mp4","videos/Workers/4WorkersMario750k.mp4","videos/Workers/4WorkersMario1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "8_workers":{
+            "Text": "blablabla",
+            "Graph": "images/Timesteps/8_workers_1000000.png",
+            "Video": ["videos/Workers/8WorkersMario100k.mp4", "videos/Workers/8WorkersMario200k.mp4","videos/Workers/8WorkersMario500k.mp4","videos/Workers/8WorkersMario750k.mp4","videos/Workers/8WorkersMario1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        }
+    },
+    "Courses":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende circuits getest om te kijken of een ander circuit leidt tot een ander model.",
+            "Graph": "images/Courses/circuits.png",
+            "timesteps": false
+        },
+        "MarioCircuit":{
+            "Text": "Mario Ciruit",
+            "Graph": "images/Courses/mariocircuit.png",
+            "Video": ["videos/Courses/mariocircuit.mp4"],
+            "timesteps": true
+        },
+        "BowserCastle":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/bowsercastle.png",
+            "Video": ["videos/Courses/bowsercastle.mp4"],
+            "timesteps": true
+        },
+        "KoopaBeach":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/koopabeach.png",
+            "Video": ["videos/Courses/koopabeach.mp4"],
+            "timesteps": true
+        },
+        "VanillaLake":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/vanillalake.png",
+            "Video": ["videos/Courses/vanillalake.mp4"],
+            "timesteps": true
+        },
+        "RainbowRoad":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/rainbowroad.png",
+            "Video": ["videos/Courses/rainbowroad.mp4"],
+            "timesteps": true
+        }
+        
+    },
+    "Characters":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende karakters getest om te kijken of een ander karakter leidt tot een ander model.",
+            "Graph": "images/Characters/Characters500k.png",
+            "timesteps": false
+        },
+        "Bowser":{
+            "Text": "",
+            "Graph": "images/Characters/Bowser_Graph.png",
+            "Video": ["videos/Characters/Bowser100k.mp4", "videos/Characters/Bowser200k.mp4", "videos/Characters/Bowser400k.mp4", "videos/Characters/Bowser500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Koopa":{
+            "Text": "",
+            "Graph": "images/Characters/Koopa_Graph.png",
+            "Video": ["videos/Characters/Koopa100k.mp4", "videos/Characters/Koopa200k.mp4", "videos/Characters/Koopa400k.mp4", "videos/Characters/Koopa500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Mario":{
+            "Text": "",
+            "Graph": "images/Characters/Mario_Graph.png",
+            "Video": ["videos/Characters/Mario100k.mp4", "videos/Characters/Mario200k.mp4", "videos/Characters/Mario400k.mp4", "videos/Characters/Mario500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Yoshi":{
+            "Text": "",
+            "Graph": "images/Characters/Yoshi_Graph.png",
+            "Video": ["videos/Characters/Yoshi100k.mp4", "videos/Characters/Yoshi200k.mp4", "videos/Characters/Yoshi400k.mp4", "videos/Characters/Yoshi500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        }
+
+    },
+    "RewardFunctions": {
+        "Algemeen": {
+            "Text": "",
+            "Graph": "images/RewardFunctions/RewardFunctions.png",
+            "timesteps": false
+        },
+        "Standard": {
+            "Text": "",
+            "Graph": "images/RewardFunctions/Standard.png",
+            "Video": ["videos/RewardFunctions/Standard100k.mp4", "videos/RewardFunctions/Standard200k.mp4", "videos/RewardFunctions/Standard500k.mp4", "videos/RewardFunctions/Standard750k.mp4", "videos/RewardFunctions/Standard1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "SpeedLenient": {
+            "Text": "",
+            "Graph": "images/RewardFunctions/SpeedLenient.png",
+            "Video": ["videos/RewardFunctions/SpeedLenient100k.mp4", "videos/RewardFunctions/SpeedLenient200k.mp4", "videos/RewardFunctions/SpeedLenient500k.mp4", "videos/RewardFunctions/SpeedLenient750k.mp4", "videos/RewardFunctions/SpeedLenient1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "Surface": {
+            "Text": "",
+            "Graph": "images/RewardFunctions/Surface.png",
+            "Video": ["videos/RewardFunctions/Surface100k.mp4", "videos/RewardFunctions/Surface200k.mp4", "videos/RewardFunctions/Surface500k.mp4", "videos/RewardFunctions/Surface750k.mp4", "videos/RewardFunctions/Surface1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "SurfaceSpeed": {
+            "Text": "",
+            "Graph": "images/RewardFunctions/SurfaceSpeed.png",
+            "Video": ["videos/RewardFunctions/SurfaceSpeed100k.mp4", "videos/RewardFunctions/SurfaceSpeed200k.mp4", "videos/RewardFunctions/SurfaceSpeed500k.mp4", "videos/RewardFunctions/SurfaceSpeed750k.mp4", "videos/RewardFunctions/SurfaceSpeed1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        }
+    }
+}
