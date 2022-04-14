@@ -22,7 +22,7 @@
         "Courses":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
             "Graph": ["images/Courses/mariocircuit.png", "images/Courses/bowsercastle.png", "images/Courses/koopabeach.png", "images/Courses/vanillalake.png", "images/Courses/rainbowroad.png"],
-            "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4", "videos/banana.mp4"],
+            "Video": ["videos/Courses/mariocircuit.mp4", "videos/Courses/bowsercastle.mp4","videos/Courses/koopabeach.mp4","videos/Courses/vanillalake.mp4", "videos/Courses/rainbowroad.mp4"],
             "timesteps": true,
             "timestep_options": ["MarioCircuit", "BowserCastle", "KoopaBeach", "VanillaLake", "RainbowRoad"]
         }
