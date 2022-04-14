@@ -5,12 +5,26 @@
             "Graph": "images/SuperMarioGIF.gif",
             "timesteps": false
         },
-        "Workers": {
+        "2_Workers": {
             "Text": "blablabla",
-            "Graph": "",
+            "Graph": "images/Timesteps/2_workers_1000000.png",
             "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4"],
             "timesteps": true,
-            "timestep_options": [100000,200000,500000,1000000]
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "4_workers":{
+            "Text": "blablabla",
+            "Graph": "images/Timesteps/4_workers_1000000.png",
+            "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "8_workers":{
+            "Text": "blablabla",
+            "Graph": "images/Timesteps/8_workers_1000000.png",
+            "Video": ["videos/yeet.mp4", "videos/banana.mp4","videos/banana.mp4","videos/banana.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
         }
     },
     "Courses":{
@@ -19,12 +33,72 @@
             "Graph": "images/Courses/circuits.png",
             "timesteps": false
         },
-        "Courses":{
+        "MarioCircuit":{
+            "Text": "Mario Ciruit",
+            "Graph": "images/Courses/mariocircuit.png",
+            "Video": ["videos/Courses/mariocircuit.mp4"],
+            "timesteps": true
+        },
+        "BowserCastle":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
-            "Graph": ["images/Courses/mariocircuit.png", "images/Courses/bowsercastle.png", "images/Courses/koopabeach.png", "images/Courses/vanillalake.png", "images/Courses/rainbowroad.png"],
-            "Video": ["videos/Courses/mariocircuit.mp4", "videos/Courses/bowsercastle.mp4","videos/Courses/koopabeach.mp4","videos/Courses/vanillalake.mp4", "videos/Courses/rainbowroad.mp4"],
-            "timesteps": true,
-            "timestep_options": ["MarioCircuit", "BowserCastle", "KoopaBeach", "VanillaLake", "RainbowRoad"]
+            "Graph": "images/Courses/bowsercastle.png",
+            "Video": ["videos/Courses/bowsercastle.mp4"],
+            "timesteps": true
+        },
+        "KoopaBeach":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/koopabeach.png",
+            "Video": ["videos/Courses/koopabeach.mp4"],
+            "timesteps": true
+        },
+        "VanillaLake":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/vanillalake.png",
+            "Video": ["videos/Courses/vanillalake.mp4"],
+            "timesteps": true
+        },
+        "RainbowRoad":{
+            "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
+            "Graph": "images/Courses/rainbowroad.png",
+            "Video": ["videos/Courses/rainbowroad.mp4"],
+            "timesteps": true
         }
+        
+    },
+    "Characters":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende karakters getest om te kijken of een ander karakter leidt tot een ander model.",
+            "Graph": "images/Characters/Characters500k.png",
+            "timesteps": false
+        },
+        "Bowser":{
+            "Text": "",
+            "Graph": "images/Characters/Bowser_Graph.png",
+            "Video": ["videos/Characters/Bowser 100k.mp4", "videos/Characters/Bowser 200k.mp4", "videos/Characters/Bowser 400k.mp4", "videos/Characters/Bowser 500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Koopa":{
+            "Text": "",
+            "Graph": "images/Characters/Koopa_Graph.png",
+            "Video": ["videos/Characters/Koopa 100k.mp4", "videos/Characters/Koopa 200k.mp4", "videos/Characters/Koopa 400k.mp4", "videos/Characters/Koopa 500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Mario":{
+            "Text": "",
+            "Graph": "images/Characters/Mario_Graph.png",
+            "Video": ["videos/Characters/Mario 100k.mp4", "videos/Characters/Mario 200k.mp4", "videos/Characters/Mario 400k.mp4", "videos/Characters/Mario 500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Yoshi":{
+            "Text": "",
+            "Graph": "images/Characters/Yoshi_Graph.png",
+            "Video": ["videos/Characters/Yoshi 100k.mp4", "videos/Characters/Yoshi 200k.mp4", "videos/Characters/Yoshi 400k.mp4", "videos/Characters/Yoshi 500k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        }
+
     }
 }

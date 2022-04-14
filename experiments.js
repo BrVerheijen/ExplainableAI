@@ -14,14 +14,16 @@ function ChangePageContent(){
     $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"]));
 
     if (experiment_data[experiment][dropdown]["timesteps"] == true){
+        if (experiment_data[experiment][dropdown]["Video"].length > 1){
         $('#video-drop').empty();
         timestep_options = experiment_data[experiment][dropdown]["timestep_options"];
         timestep_options.forEach( (value,index) => {
             $('#video-drop').append(`<option id="timestep_option" value="${index}">${value}</option>`);
         });
         $('#video-drop').attr("hidden", false);
+    }
         $('#video').attr("hidden",false);
-
+    
     }
 
     else{
@@ -33,13 +35,19 @@ function ChangePageContent(){
     ChangeVideo();
 }
 
-function ChangeVideo(){
+async function ChangeVideo(){
     $('#video').empty();
     experiment = $("#title").text();
     dropdown = $("#experiment-drop option:selected").text();
-    video = $("#video-drop option:selected").val();
-    $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"][video]));
-    $('#video').append(`<source id="source" src="${experiment_data[experiment][dropdown]["Video"][video]}">`);
+    $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"]));
+    videos = await experiment_data[experiment][dropdown]["Video"];
+    console.log(videos);
+    if (videos.length == 1){
+        $('#video').append(`<source id="source" src="${videos[0]}">`);
+    } else{
+        video = $("#video-drop option:selected").val();
+        $('#video').append(`<source id="source" src="${videos[video]}">`);
+    }
     $('#video')[0].load();
 }
 
@@ -53,7 +61,17 @@ $('#video-drop').change(
 
 async function StartPageContent(){
     await GetData();
+    await GetDropdown();
     ChangePageContent();
+}
+
+function GetDropdown(){
+    experiment = $("#title").text();
+    $('#experiment-drop').empty();
+    dropdown_options = Object.keys(experiment_data[experiment]);
+    dropdown_options.forEach( (value,index) => {
+        $('#experiment-drop').append(`<option id="experiment_option" value="${index}">${value}</option>`);
+    });
 }
 
 StartPageContent();
