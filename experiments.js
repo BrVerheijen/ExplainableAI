@@ -41,7 +41,6 @@ async function ChangeVideo(){
     dropdown = $("#experiment-drop option:selected").text();
     $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"]));
     videos = await experiment_data[experiment][dropdown]["Video"];
-    console.log(videos);
     if (videos.length == 1){
         $('#video').append(`<source id="source" src="${videos[0]}">`);
     } else{
