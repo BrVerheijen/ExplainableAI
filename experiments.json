@@ -101,6 +101,20 @@
         }
 
     },
+    "GrandPrix":{
+        "Algemeen":{
+            "Text": "Grand Prix",
+            "Graph": "images/GrandPrix/GrandPrix_Graph.png",
+            "timesteps": false
+        },
+        "Training":{
+            "Text": "De training van Grand Prix",
+            "Graph": "images/GrandPrix/GrandPrix_Graph.png",
+            "Video": ["videos/GrandPrix/GrandPrix_100k.mp4", "videos/GrandPrix/GrandPrix_200k.mp4", "videos/GrandPrix/GrandPrix_500k.mp4", "videos/GrandPrix/GrandPrix_750k.mp4", "videos/GrandPrix/GrandPrix_1000k.mp4"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        }
+    },
     "RewardFunctions": {
         "Algemeen": {
             "Text": "",
