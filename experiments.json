@@ -79,7 +79,7 @@
             "timestep_options": [100000, 200000, 400000, 500000]
         },
         "Koopa":{
-            "Text": "",
+            "Text": "Koopa",
             "Graph": "images/Characters/Koopa_Graph.png",
             "Video": ["videos/Characters/Koopa100k.mp4", "videos/Characters/Koopa200k.mp4", "videos/Characters/Koopa400k.mp4", "videos/Characters/Koopa500k.mp4"],
             "timesteps": true,
