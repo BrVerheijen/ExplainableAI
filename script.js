@@ -47,6 +47,9 @@ $(document).ready(function(){
         loop: true
     });
 
+    
+    
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
@@ -68,9 +71,50 @@ $(document).ready(function(){
             }
         }
     });
+
+   
+
+    
 });
 
 $('.navbar .menu li a').click(function(){
     // applying again smooth scroll on menu items click
     $('html').css("scrollBehavior", "smooth");
+});
+
+
+//more typing animation
+var typed = new Typed(".typing-3", {
+    strings: ["AI?", "Artificial Intelligence?"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-4", {
+    strings: ["AI", "Artificial Intelligence"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-5", {
+    strings: ["Reinforcement Learning?"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-6", {
+    strings: ["Reinforcement Learning"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-7", {
+    strings: ["AI", "Reinforcement Learning"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
 });

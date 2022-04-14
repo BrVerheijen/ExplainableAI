@@ -26,7 +26,7 @@ html{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson; 
+    background: crimson;
 }
 .navbar .max-width{
     display: flex;
@@ -147,12 +147,19 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .teams, footer{
+.about, .services, .skills, .teams, footer, .ai-uitleg, .rl-examples, .rl-uitleg, .mario-ai, .sources, .top, .bottom{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
-.skills .skills-content{
+.skills .skills-content,
+.ai-uitleg .ai-uitleg-content,
+.rl-examples .rl-examples-content,
+.rl-uitleg .rl-uitleg-content,
+.mario-ai .mario-ai-content,
+.top .top-content,
+.bottom .bottom-content
+{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -237,18 +244,28 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .teams, .ai-uitleg, .rl-examples, .sources{
     color:#fff;
     background-color: #111;
 }
 .services .title::before,
-.teams .title::before{
+.teams .title::before,
+.ai-uitleg .title::before,
+.rl-examples .title::before,
+.sources .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.teams .title::after
+.ai-uitleg .title::after,
+.rl-examples .title::after
+.sources .title::after{
     background: #111;
     content: "Resultaten";
+}
+.services .title::after{
+    content: "Resultaten";
+    background: #111;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -313,6 +330,7 @@ section .title::after{
 /* teams section styling */
 .teams .title::after{
     content: "Casusgroep 6";
+    background: #111;
 }
 .teams .carousel .card{
     background: #222;
@@ -386,6 +404,216 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+/* ai uitleg section styling */
+.ai-uitleg .title::after{
+    content: "uitleg";
+    background: #111;
+}
+.ai-uitleg .ai-uitleg-content .left{
+    width: 45%;
+}
+.ai-uitleg .ai-uitleg-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.ai-uitleg .ai-uitleg-content .right{
+    width: 55%;
+}
+.ai-uitleg .ai-uitleg-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ai-uitleg .ai-uitleg-content .right .text span{
+    color: crimson;
+}
+.ai-uitleg .ai-uitleg-content .right p{
+    text-align: justify;
+}
+
+/* rl uitleg section styling */
+.rl-uitleg .title::after{
+    content: "Uitleg";
+}
+.rl-uitleg .title::after{
+    content: "Mario Kart AI";
+}
+.rl-uitleg .rl-uitleg-content .left{
+    width: 45%;
+}
+.rl-uitleg .rl-uitleg-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.rl-uitleg .rl-uitleg-content .right{
+    width: 55%;
+}
+.rl-uitleg .rl-uitleg-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rl-uitleg .rl-uitleg-content .right .text span{
+    color: crimson;
+}
+.rl-uitleg .rl-uitleg-content .right p{
+    text-align: justify;
+}
+
+
+/* rl examples section styling */
+.rl-examples .title::after{
+    content: "uitleg";
+    background: #111;
+}
+.rl-examples .rl-examples-content .left{
+    width: 45%;
+}
+.rl-examples .rl-examples-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.rl-examples .rl-examples-content .right{
+    width: 55%;
+}
+.rl-examples .rl-examples-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rl-examples .rl-examples-content .right .text span{
+    color: crimson;
+}
+.rl-examples .rl-examples-content .right p{
+    text-align: justify;
+}
+
+/* mario ai section styling */
+.mario-ai .title::after{
+    content: "Uitleg";
+}
+.mario-ai .mario-ai-content .left{
+    width: 45%;
+}
+.mario-ai .mario-ai-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.mario-ai .mario-ai-content .right{
+    width: 55%;
+}
+.mario-ai .mario-ai-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.mario-ai .mario-ai-content .right .text span{
+    color: crimson;
+}
+.mario-ai .mario-ai-content .right p{
+    text-align: justify;
+}
+
+/* sources section styling */
+.sources .title::after{
+    content: "uitleg";
+    background: #111;
+    justify-content: none;
+}
+.sources .sources-content{
+    width: 100%;
+    display:block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;}
+
+.sources .sources-content a{
+    color: crimson;
+    align-items: center;
+}
+.sources .sources-content a:hover{
+    text-decoration: underline;
+}
+
+/* center */
+.ai-uitleg .ai-uitleg-content .column,
+.rl-uitleg .rl-uitleg-content .column,
+.rl-examples .rl-examples-content .column,
+.mario-ai .mario-ai-content .column{
+    width: 100%;
+}
+
+.ai-uitleg .ai-uitleg-content .column .left,
+    .rl-uitleg .rl-uitleg-content .column .left,
+    .rl-examples .rl-examples-content .column .left,
+    .mario-ai .mario-ai-content .column .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+.ai-uitleg .ai-uitleg-content .left img,
+.rl-uitleg .rl-uitleg-content .left img,
+.rl-examples .rl-examples-content .left img,
+.mario-ai .mario-ai-content .left img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+    margin-bottom: 40px;
+}
+.ai-uitleg .ai-uitleg-content .left .wide-img{
+    object-fit: contain;
+    height: 300px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.rl-uitleg .rl-uitleg-content .left .wide-img{
+    object-fit: contain;
+    height: 300px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.rl-examples .rl-examples-content .left .wide-img{
+    object-fit: contain;
+    height: 300px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.mario-ai .mario-ai-content .left .wide-img{
+    object-fit: contain;
+    height: 400px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+
+/* experiments styling start */
+
+
+/* top styling */
+
+
+
+/* bottom styling */
+
+
+
+
+
 /* responsive media query start */
 @media (max-width: 1300px){
     .home .max-width{
@@ -394,9 +622,20 @@ footer span a:hover{
 }
 
 @media (max-width: 1104px){
-    .about .about-content .left img{
+    .about .about-content .left img,
+    .ai-uitleg .ai-uitleg-content .left img,
+    .rl-uitleg .rl-uitleg-content .left img,
+    .rl-examples .rl-examples-content .left img,
+    .mario-ai .mario-ai-content .left img
+    {
         height: 350px;
         width: 350px;
+    }
+    .ai-uitleg .ai-uitleg-content .left .wide-img{
+        object-fit: contain;
+        height: 200px;
+        width: auto;
+        margin-top: 20px;
     }
 }
 @media (max-width: 991px){
@@ -448,20 +687,61 @@ footer span a:hover{
     .max-width{
         max-width: 800px;
     }
-    .about .about-content .column{
+    .about .about-content .column,
+    .ai-uitleg .ai-uitleg-content .column,
+    .rl-uitleg .rl-uitleg-content .column,
+    .rl-examples .rl-examples-content .column,
+    .mario-ai .mario-ai-content .column{
         width: 100%;
     }
-    .about .about-content .column .left{
+    .about .about-content .column .left,
+    .ai-uitleg .ai-uitleg-content .column .left,
+    .rl-uitleg .rl-uitleg-content .column .left,
+    .rl-examples .rl-examples-content .column .left,
+    .mario-ai .mario-ai-content .column .left{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .left img{
+    .about .about-content .left img,
+    .ai-uitleg .ai-uitleg-content .left img,
+    .rl-uitleg .rl-uitleg-content .left img,
+    .rl-examples .rl-examples-content .left img,
+    .mario-ai .mario-ai-content .left img{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .column .right{
+    .ai-uitleg .ai-uitleg-content .left .wide-img{
+        object-fit: contain;
+        height: 200px;
+        width: auto;
+    }
+    .rl-uitleg .rl-uitleg-content .left .wide-img{
+        object-fit: contain;
+        height: 200px;
+        width: auto;
+        margin-top: 0px;
+    }
+    .rl-examples .rl-examples-content .left .wide-img{
+        object-fit: contain;
+        height: 200px;
+        width: auto;
+    }
+
+    .mario-ai .mario-ai-content .left .wide-img{
+        object-fit: contain;
+        height: 300px;
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .about .about-content .column .right,
+    .ai-uitleg .ai-uitleg-content .column .right,
+    .rl-uitleg .rl-uitleg-content .column .right,
+    .rl-examples .rl-examples-content .column .right,
+    .mario-ai .mario-ai-content .column .right{
         flex: 100%;
     }
     .services .serv-content .card{
@@ -477,7 +757,8 @@ footer span a:hover{
         justify-content: center;
         margin: 0 auto 60px;
     }
-    
+
+
 }
 
 @media (max-width: 690px){
