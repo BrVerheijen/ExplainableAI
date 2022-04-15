@@ -662,8 +662,8 @@ footer span a:hover{
     gap: 10rem;
     margin: 0;
 }
-.experiment-uitleg .experiment-uitleg-content .visual video{
-    height: 21rem;
+.experiment-uitleg .experiment-uitleg-content .visual iframe{
+    height: 12rem;
     width: 30rem;
     object-fit: contain;
     border-radius: 6px;
