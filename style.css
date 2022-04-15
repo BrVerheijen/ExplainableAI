@@ -635,8 +635,8 @@ footer span a:hover{
     align-items: center;
     justify-content: center;
     gap: 30rem;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .experiment-uitleg .experiment-uitleg-content .dropdown select{
     font-family: 'Poppins', sans-serif;
@@ -654,6 +654,9 @@ footer span a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.experiment-uitleg .experiment-uitleg-content .info p{
+    font-size: 20px;
 }
 .experiment-uitleg .experiment-uitleg-content .visual{
     display: flex;
