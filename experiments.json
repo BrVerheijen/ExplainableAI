@@ -8,21 +8,21 @@
         "2_Workers": {
             "Text": "blablabla",
             "Graph": "images/Timesteps/2_workers_1000000.png",
-            "Video": ["videos/Workers/2WorkersMario100k.mp4", "videos/Workers/2WorkersMario200k.mp4","videos/Workers/2WorkersMario500k.mp4","videos/Workers/2WorkersMario750k.mp4","videos/Workers/2WorkersMario1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/Dd39CPHdquk", "https://www.youtube.com/embed/kcgkOYu40cY","https://www.youtube.com/embed/nlUDy74_XT4","https://www.youtube.com/embed/sj-agEp68bM","https://www.youtube.com/embed/jA1flr8xK1c"],
             "timesteps": true,
             "timestep_options": [100000,200000,500000,750000,1000000]
         },
         "4_workers":{
             "Text": "blablabla",
             "Graph": "images/Timesteps/4_workers_1000000.png",
-            "Video": ["videos/Workers/4WorkersMario100k.mp4", "videos/Workers/4WorkersMario200k.mp4","videos/Workers/4WorkersMario500k.mp4","videos/Workers/4WorkersMario750k.mp4","videos/Workers/4WorkersMario1000k.mp4"],
+            "Video": ["videos/Workers/4WorkersMario100k.mp4", "videos/Workers/4WorkersMario200k.mp4","videos/Workers/4WorkersMario500k.mp4","https://www.youtube.com/embed/chzTfzVhJGI","https://www.youtube.com/embed/tPM-HoXOxxs"],
             "timesteps": true,
             "timestep_options": [100000,200000,500000,750000,1000000]
         },
         "8_workers":{
             "Text": "blablabla",
             "Graph": "images/Timesteps/8_workers_1000000.png",
-            "Video": ["videos/Workers/8WorkersMario100k.mp4", "videos/Workers/8WorkersMario200k.mp4","videos/Workers/8WorkersMario500k.mp4","videos/Workers/8WorkersMario750k.mp4","videos/Workers/8WorkersMario1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/YJNzOVP0VKQ", "https://www.youtube.com/embed/LydW8seuIAA","https://www.youtube.com/embed/_6FRYA_1HXE","https://www.youtube.com/embed/vTZRNY7UNR4","https://www.youtube.com/embed/Mkk6d2Ja_-o"],
             "timesteps": true,
             "timestep_options": [100000,200000,500000,750000,1000000]
         }
@@ -36,31 +36,31 @@
         "MarioCircuit":{
             "Text": "Mario Ciruit",
             "Graph": "images/Courses/mariocircuit.png",
-            "Video": ["videos/Courses/mariocircuit.mp4"],
+            "Video": ["https://www.youtube.com/embed/Sg_7DlmG4X8"],
             "timesteps": true
         },
         "BowserCastle":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
             "Graph": "images/Courses/bowsercastle.png",
-            "Video": ["videos/Courses/bowsercastle.mp4"],
+            "Video": ["https://www.youtube.com/embed/gYbKgvaMgB4"],
             "timesteps": true
         },
         "KoopaBeach":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
             "Graph": "images/Courses/koopabeach.png",
-            "Video": ["videos/Courses/koopabeach.mp4"],
+            "Video": ["https://www.youtube.com/embed/B2oTNpZa7fg"],
             "timesteps": true
         },
         "VanillaLake":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
             "Graph": "images/Courses/vanillalake.png",
-            "Video": ["videos/Courses/vanillalake.mp4"],
+            "Video": ["https://www.youtube.com/embed/Kok9LuWjSLM"],
             "timesteps": true
         },
         "RainbowRoad":{
             "Text": "De circuits waarmee is geëxperimenteerd zijn MarioCircuit, BowserCastle, KoopaBeach, VanillaLake en RainbowRoad.",
             "Graph": "images/Courses/rainbowroad.png",
-            "Video": ["videos/Courses/rainbowroad.mp4"],
+            "Video": ["https://www.youtube.com/embed/gyyCJ3QHBw8"],
             "timesteps": true
         }
         
@@ -74,28 +74,28 @@
         "Bowser":{
             "Text": "",
             "Graph": "images/Characters/Bowser_Graph.png",
-            "Video": ["videos/Characters/Bowser100k.mp4", "videos/Characters/Bowser200k.mp4", "videos/Characters/Bowser400k.mp4", "videos/Characters/Bowser500k.mp4"],
+            "Video": ["https://www.youtube.com/embed/DaAggBSk7V4", "https://www.youtube.com/embed/-1d4JpYLXeU", "https://www.youtube.com/embed/Pd9_XDHuoh4", "https://www.youtube.com/embed/Cd31B47s6MM"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 400000, 500000]
         },
         "Koopa":{
             "Text": "Koopa",
             "Graph": "images/Characters/Koopa_Graph.png",
-            "Video": ["videos/Characters/Koopa100k.mp4", "videos/Characters/Koopa200k.mp4", "videos/Characters/Koopa400k.mp4", "videos/Characters/Koopa500k.mp4"],
+            "Video": ["https://www.youtube.com/embed/ekrPz7KeqZg", "https://www.youtube.com/embed/ZM5R60E460A", "https://www.youtube.com/embed/Qq9g4OqgS84", "https://www.youtube.com/embed/cXgsySk-i6s"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 400000, 500000]
         },
         "Mario":{
             "Text": "",
             "Graph": "images/Characters/Mario_Graph.png",
-            "Video": ["videos/Characters/Mario100k.mp4", "videos/Characters/Mario200k.mp4", "videos/Characters/Mario400k.mp4", "videos/Characters/Mario500k.mp4"],
+            "Video": ["https://www.youtube.com/embed/saJ-hz8dHCw", "https://www.youtube.com/embed/v0x-zPDIr_A", "https://www.youtube.com/embed/VqYyEb1ri2s", "https://www.youtube.com/embed/rHSlrz_bf4Q"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 400000, 500000]
         },
         "Yoshi":{
             "Text": "",
             "Graph": "images/Characters/Yoshi_Graph.png",
-            "Video": ["videos/Characters/Yoshi100k.mp4", "videos/Characters/Yoshi200k.mp4", "videos/Characters/Yoshi400k.mp4", "videos/Characters/Yoshi500k.mp4"],
+            "Video": ["https://www.youtube.com/embed/Of0PrzLTqx0", "https://www.youtube.com/embed/LIVikCbBCdI", "https://www.youtube.com/embed/mxQQSdG48w4", "https://www.youtube.com/embed/80pbFUg31r0"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 400000, 500000]
         }
@@ -110,7 +110,7 @@
         "Training":{
             "Text": "De training van Grand Prix",
             "Graph": "images/GrandPrix/GrandPrix_Graph.png",
-            "Video": ["videos/GrandPrix/GrandPrix_100k.mp4", "videos/GrandPrix/GrandPrix_200k.mp4", "videos/GrandPrix/GrandPrix_500k.mp4", "videos/GrandPrix/GrandPrix_750k.mp4", "videos/GrandPrix/GrandPrix_1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/dIJ7GvAnXKA", "https://www.youtube.com/embed/02nDFDuD4yc", "https://www.youtube.com/embed/lorRHYxir8A", "https://www.youtube.com/embed/B3QDTXjK__Q", "https://www.youtube.com/embed/TFfQIz2BNcY"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 500000, 750000, 1000000]
         }
@@ -124,28 +124,28 @@
         "Standard": {
             "Text": "",
             "Graph": "images/RewardFunctions/Standard.png",
-            "Video": ["videos/RewardFunctions/Standard100k.mp4", "videos/RewardFunctions/Standard200k.mp4", "videos/RewardFunctions/Standard500k.mp4", "videos/RewardFunctions/Standard750k.mp4", "videos/RewardFunctions/Standard1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/Ffe6LA-gxEg", "https://www.youtube.com/embed/YNuqw5ETq1k", "https://www.youtube.com/embed/hc4iFq3l_G8", "https://www.youtube.com/embed/Mzy5v2z4Ydo", "https://www.youtube.com/embed/7VlCaM-Y3Eo"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 500000, 750000, 1000000]
         },
         "SpeedLenient": {
             "Text": "",
             "Graph": "images/RewardFunctions/SpeedLenient.png",
-            "Video": ["videos/RewardFunctions/SpeedLenient100k.mp4", "videos/RewardFunctions/SpeedLenient200k.mp4", "videos/RewardFunctions/SpeedLenient500k.mp4", "videos/RewardFunctions/SpeedLenient750k.mp4", "videos/RewardFunctions/SpeedLenient1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/8LjxLuTKLno", "https://www.youtube.com/embed/2b-k4Ib56s4", "https://www.youtube.com/embed/6LhV7EqXyno", "https://www.youtube.com/embed/mJjiONAre1Q", "https://www.youtube.com/embed/Yhx5hNNgceI"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 500000, 750000, 1000000]
         },
         "Surface": {
             "Text": "",
             "Graph": "images/RewardFunctions/Surface.png",
-            "Video": ["videos/RewardFunctions/Surface100k.mp4", "videos/RewardFunctions/Surface200k.mp4", "videos/RewardFunctions/Surface500k.mp4", "videos/RewardFunctions/Surface750k.mp4", "videos/RewardFunctions/Surface1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/f6ApVIztuKE", "https://www.youtube.com/embed/BXblGMaugwY", "https://www.youtube.com/embed/IVfGJJ1zLro", "https://www.youtube.com/embed/-qHM-YJq8VU", "https://www.youtube.com/embed/SwCg4mSId0A"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 500000, 750000, 1000000]
         },
         "SurfaceSpeed": {
             "Text": "",
             "Graph": "images/RewardFunctions/SurfaceSpeed.png",
-            "Video": ["videos/RewardFunctions/SurfaceSpeed100k.mp4", "videos/RewardFunctions/SurfaceSpeed200k.mp4", "videos/RewardFunctions/SurfaceSpeed500k.mp4", "videos/RewardFunctions/SurfaceSpeed750k.mp4", "videos/RewardFunctions/SurfaceSpeed1000k.mp4"],
+            "Video": ["https://www.youtube.com/embed/mYYTH7vYm0Y", "https://www.youtube.com/embed/cF-ZaF18Nx0", "https://www.youtube.com/embed/Dr3dc3WweC0", "https://www.youtube.com/embed/QZAafW6nk2c", "https://www.youtube.com/embed/j8y0T8CjZgQ"],
             "timesteps": true,
             "timestep_options": [100000, 200000, 500000, 750000, 1000000]
         }
