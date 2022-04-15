@@ -34,7 +34,7 @@
             "timesteps": false
         },
         "MarioCircuit":{
-            "Text": "Mario Ciruit",
+            "Text": "In dit experiment heeft het AI getraind op het circuit 'Mario Circuit'. Hier is te zien dat de reward tot en met 250.000 stappen een groei ondervindt. Daarna blijft het tot 400.000 stappen constant waarna het begint te dalen. Dit komt doordat het model een foute keuze blijft nemen waardoor de reward verminderd wordt.",
             "Graph": "images/Courses/mariocircuit.png",
             "Video": ["https://www.youtube.com/embed/Sg_7DlmG4X8"],
             "timesteps": true
