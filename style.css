@@ -147,7 +147,7 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .teams, footer, .ai-uitleg, .rl-examples, .rl-uitleg, .mario-ai, .sources, .top, .bottom{
+.about, .services, .skills, .teams, footer, .ai-uitleg, .rl-examples, .rl-uitleg, .mario-ai, .sources, .experiment-uitleg{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -156,9 +156,7 @@ section{
 .ai-uitleg .ai-uitleg-content,
 .rl-examples .rl-examples-content,
 .rl-uitleg .rl-uitleg-content,
-.mario-ai .mario-ai-content,
-.top .top-content,
-.bottom .bottom-content
+.mario-ai .mario-ai-content
 {
     display: flex;
     flex-wrap: wrap;
@@ -244,7 +242,7 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .ai-uitleg, .rl-examples, .sources{
+.services, .teams, .ai-uitleg, .rl-examples, .sources, .experiment-uitleg{
     color:#fff;
     background-color: #111;
 }
@@ -252,14 +250,16 @@ section .title::after{
 .teams .title::before,
 .ai-uitleg .title::before,
 .rl-examples .title::before,
-.sources .title::before{
+.sources .title::before,
+.experiment-uitleg::before{
     background: #fff;
 }
 .services .title::after,
 .teams .title::after
 .ai-uitleg .title::after,
 .rl-examples .title::after
-.sources .title::after{
+.sources .title::after,
+.experiment-uitleg::after{
     background: #111;
     content: "Resultaten";
 }
@@ -599,20 +599,79 @@ footer span a:hover{
     margin-bottom: 40px;
 }
 
-
-
 /* experiments styling start */
+.experiment-uitleg .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.experiment-uitleg .title::after{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.experiment-uitleg .title::after{
+    content: "Experiment";
+    background: #111;
+}
+.experiment-uitleg .experiment-uitleg-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-/* top styling */
-
-
-
-/* bottom styling */
-
-
-
-
+.experiment-uitleg .experiment-uitleg-content .dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.experiment-uitleg .experiment-uitleg-content .dropdown select{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: crimson;
+    height: 3rem;
+    width: 10rem;
+    border: #111;
+    border-radius: 2%;
+    text-align: center;
+}
+.experiment-uitleg .experiment-uitleg-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.experiment-uitleg .experiment-uitleg-content .visual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 0;
+}
+.experiment-uitleg .experiment-uitleg-content .visual video{
+    height: 21rem;
+    width: 30rem;
+    border-radius: 6px;
+}
+.experiment-uitleg .experiment-uitleg-content .visual img{
+    height: 20rem;
+    width: 36rem;
+    border-radius: 6px;
+}
 
 /* responsive media query start */
 @media (max-width: 1300px){

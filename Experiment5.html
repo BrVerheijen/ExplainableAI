@@ -11,28 +11,50 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     </head>
-    <body>
-
+    <body style="background-color:#111">
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a onclick="home()">MarioKart<span>AI</span></a></div>
+                <ul class="menu">
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#about" >Project</a></li>
+                    <li><a href="#services">Experimenten</a></li>
+                    <li><a href="#skills">Resultaat</a></li>
+                    <li><a href="#teams">Over ons</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
         <section class="experiment-uitleg" id="experiment-uitleg">
             <div class="max-width">
                 <h2 class="title" id="title">RewardFunctions</h2>
                 <div class="experiment-uitleg-content">
-                    <div class="column left">
+                    <div class="info">
                         <p id="text" class="text"></p>
-                        <video height="240" width="320" controls hidden id="video" class="video">
-                        </video>
                     </div>
-                    <div class="column right">
+                    <div class="dropdown">
                         <select id="experiment-drop" class="experiment-drop">
                         </select>
-                        <img id="graph" src="">
                         <select id="video-drop" class="video-drop" hidden>
                         </select>
                     </div>
+                    <div class="visual">
+                        <img id="graph" src="">
+                        <video controls hidden id="video" class="video">
+                        </video>
+                        
+                    </div>   
                 </div>
             </div>
         </section>
-
+        <footer>
+            <span>Created By <a href="#">Dajmen Graus, Bas Ruijters, Bram Verheijen, Lorenzo Clermonts</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+        </footer>
     <script src="script.js"></script>
     <script src="experiments.js"></script>
     </body>
