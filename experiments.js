@@ -36,18 +36,18 @@ function ChangePageContent(){
 }
 
 async function ChangeVideo(){
-    $('#video').empty();
+    $('#video').attr("src"," ");
     experiment = $("#title").text();
     dropdown = $("#experiment-drop option:selected").text();
     $("#graph").attr("src",(experiment_data[experiment][dropdown]["Graph"]));
     videos = await experiment_data[experiment][dropdown]["Video"];
     if (videos.length == 1){
-        $('#video').append(`<source id="source" src="${videos[0]}">`);
+        $('#video').attr("src",videos[0]);
     } else{
         video = $("#video-drop option:selected").val();
-        $('#video').append(`<source id="source" src="${videos[video]}">`);
+        $('#video').attr("src",videos[video]);
     }
-    $('#video')[0].load();
+
 }
 
 $('#experiment-drop').change(
