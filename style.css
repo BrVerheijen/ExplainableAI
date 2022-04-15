@@ -622,7 +622,7 @@ footer span a:hover{
 }
 .experiment-uitleg .title::after{
     content: "Experiment";
-    background: #111;
+    background: url("images/Profile_image.jfif") no-repeat center;;
 }
 .experiment-uitleg .experiment-uitleg-content .info{
     display: flex;
@@ -665,14 +665,19 @@ footer span a:hover{
 .experiment-uitleg .experiment-uitleg-content .visual video{
     height: 21rem;
     width: 30rem;
+    object-fit: contain;
     border-radius: 6px;
 }
 .experiment-uitleg .experiment-uitleg-content .visual img{
-    height: 20rem;
+    height: 24rem;
     width: 36rem;
+    object-fit: contain;
     border-radius: 6px;
+    margin: 0;
 }
-
+.experiment-uitleg{
+    background: url("images/Profile_image.jfif") no-repeat center;
+}
 /* responsive media query start */
 @media (max-width: 1300px){
     .home .max-width{
