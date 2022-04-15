@@ -1,0 +1,153 @@
+{
+    "Timesteps":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende aantallen timesteps en workers getest, dit is gedaan om te kijken wat voor effect dit heeft op de groei van het model",
+            "Graph": "images/Timesteps/Workers_Graph3.png",
+            "timesteps": false
+        },
+        "2_Workers": {
+            "Text": "In dit experiment is te zien hoe het gebruik van 2 workers de resultaten van de AI beinvloeden. Er is te zien dat de reward een sterke groei heeft tot ongeveeer 375.000 stappen, hierna vlakt de reward tot ongeveeer 650.000 stappen af. Hierna is te zien dat er een daling in reward is die langzaam weer wordt opgebouwd.",
+            "Graph": "images/Timesteps/2_workers_1000000.png",
+            "Video": ["https://www.youtube.com/embed/Dd39CPHdquk", "https://www.youtube.com/embed/kcgkOYu40cY","https://www.youtube.com/embed/nlUDy74_XT4","https://www.youtube.com/embed/sj-agEp68bM","https://www.youtube.com/embed/jA1flr8xK1c"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "4_workers":{
+            "Text": "In dit experiment is te zien hoe het gebruikt van 4 workers de resultaten van de AI beinvloeden. Er is een sterke groei in reward te zien tot ongeveer 250.000 stappen, waarna de reward een kleine daling heeft. Maar later weer terug komt op het oude niveau en daarna door groeit.",
+            "Graph": "images/Timesteps/4_workers_1000000.png",
+            "Video": ["https://www.youtube.com/embed/AFypGUNTEuY", "https://www.youtube.com/embed/AA7lt3WUryQ","https://www.youtube.com/embed/JUCGZa1yEIg","https://www.youtube.com/embed/chzTfzVhJGI","https://www.youtube.com/embed/tPM-HoXOxxs"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        },
+        "8_workers":{
+            "Text": "In dit experiment is te zien hoe het gebruik van 8 workers de resultaten van de AI beinvloeden. Er is te zien dat de reward een sterke groei heeft tot ongeveer 550.000 stappen, waarna het een kleine daling ondervindt en daarna afvlakt.",
+            "Graph": "images/Timesteps/8_workers_1000000.png",
+            "Video": ["https://www.youtube.com/embed/YJNzOVP0VKQ", "https://www.youtube.com/embed/LydW8seuIAA","https://www.youtube.com/embed/_6FRYA_1HXE","https://www.youtube.com/embed/vTZRNY7UNR4","https://www.youtube.com/embed/Mkk6d2Ja_-o"],
+            "timesteps": true,
+            "timestep_options": [100000,200000,500000,750000,1000000]
+        }
+    },
+    "Courses":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende circuits getest om te kijken of een ander circuit leidt tot een ander model met meer of minder reward.",
+            "Graph": "images/Courses/circuits.png",
+            "timesteps": false
+        },
+        "MarioCircuit":{
+            "Text": "In dit experiment heeft de AI getraind op het circuit 'Mario Circuit'. Hier is te zien dat de reward tot en met 250.000 stappen een groei ondervindt. Daarna blijft het tot 400.000 stappen constant waarna het begint te dalen. Dit komt doordat het model een foute keuze blijft nemen waardoor de reward verminderd wordt.",
+            "Graph": "images/Courses/mariocircuit.png",
+            "Video": ["https://www.youtube.com/embed/Sg_7DlmG4X8"],
+            "timesteps": true
+        },
+        "BowserCastle":{
+            "Text": "In dit experiment heeft de AI getraind op het circuit 'Bowser Castle'. Hier is te zien dat de reward over het algemeen laag blijft, maar een constante kleine groei heeft. Echter daalt het vanaf ongeveer 400.000 stappen al snel.",
+            "Graph": "images/Courses/bowsercastle.png",
+            "Video": ["https://www.youtube.com/embed/gYbKgvaMgB4"],
+            "timesteps": true
+        },
+        "KoopaBeach":{
+            "Text": "In dit experiment heeft de AI getraind op het circuit 'Koopa Beach'. Hier is te zien dat de reward er sterk groeit tot ongeveer 275.000 stappen, waarna het langzaam afvlakt.",
+            "Graph": "images/Courses/koopabeach.png",
+            "Video": ["https://www.youtube.com/embed/B2oTNpZa7fg"],
+            "timesteps": true
+        },
+        "VanillaLake":{
+            "Text": "In dit experiment heeft de AI getraind op het circuit 'Vanilla Lake'. Hier is te zien dat de reward de hele trainingsperiode een vrij constante groei ondervindt, maar dat de totale reward toch vrij laag blijft vergeleken met sommige andere circuits.",
+            "Graph": "images/Courses/vanillalake.png",
+            "Video": ["https://www.youtube.com/embed/Kok9LuWjSLM"],
+            "timesteps": true
+        },
+        "RainbowRoad":{
+            "Text": "In dit experiment heeft de AI getraind op het circuit 'Rainbow Road'. Hier is te zien dat de reward vrijwel geen groei ondervindt tijdens de hele trainingsperiode, verder zijn de episodes ook erg kort. Waardoor geconcludeerd kan worden dat het AI geen progressie maakt.",
+            "Graph": "images/Courses/rainbowroad.png",
+            "Video": ["https://www.youtube.com/embed/gyyCJ3QHBw8"],
+            "timesteps": true
+        }
+        
+    },
+    "Characters":{
+        "Algemeen":{
+            "Text": "In dit experiment zijn verschillende karakters getest om te kijken of een ander karakter leidt tot een ander model.",
+            "Graph": "images/Characters/Characters500k.png",
+            "timesteps": false
+        },
+        "Bowser":{
+            "Text": "In dit experiment heeft de AI getraind met het karakter 'Bowser'. Hier is te zien dat de reward een constant groei ondervindt en op het einde een kleine vermindering in reward heeft",
+            "Graph": "images/Characters/Bowser_Graph.png",
+            "Video": ["https://www.youtube.com/embed/DaAggBSk7V4", "https://www.youtube.com/embed/-1d4JpYLXeU", "https://www.youtube.com/embed/Pd9_XDHuoh4", "https://www.youtube.com/embed/Cd31B47s6MM"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Koopa":{
+            "Text": "In dit experiment heeft de AI getraind met het karakter 'Koopa'. Hier is te zien dat de reward een sterke groei heeft tot ongeveer 300.000 stappen, waarna de reward zich gaat verminderen",
+            "Graph": "images/Characters/Koopa_Graph.png",
+            "Video": ["https://www.youtube.com/embed/ekrPz7KeqZg", "https://www.youtube.com/embed/ZM5R60E460A", "https://www.youtube.com/embed/Qq9g4OqgS84", "https://www.youtube.com/embed/cXgsySk-i6s"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Mario":{
+            "Text": "In dit experiment heeft de AI getraind met het karakter 'Mario'. Hier is te zien dat de reward eerst een sterke groei ondervindt, waarna het een daling heeft. Tot slot heeft het weer een groei, die op het einde weer afvlakt en zich verminderd.",
+            "Graph": "images/Characters/Mario_Graph.png",
+            "Video": ["https://www.youtube.com/embed/saJ-hz8dHCw", "https://www.youtube.com/embed/v0x-zPDIr_A", "https://www.youtube.com/embed/VqYyEb1ri2s", "https://www.youtube.com/embed/rHSlrz_bf4Q"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        },
+        "Yoshi":{
+            "Text": "In dit experiment heeft de AI getraind met het karakter 'Yoshi'. Hier is te zien dat de reward eerst een sterke groei heeft tot ongeveer 350.000 stappen, waarna de reward sterk verminderd.",
+            "Graph": "images/Characters/Yoshi_Graph.png",
+            "Video": ["https://www.youtube.com/embed/Of0PrzLTqx0", "https://www.youtube.com/embed/LIVikCbBCdI", "https://www.youtube.com/embed/mxQQSdG48w4", "https://www.youtube.com/embed/80pbFUg31r0"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 400000, 500000]
+        }
+
+    },
+    "GrandPrix":{
+        "Algemeen":{
+            "Text": "In dit experiment is de 'Grand Prix' game-mode van het spel getest, in deze game-mode rijdt het AI samen met 7 andere spelers.",
+            "Graph": "images/GrandPrix/GrandPrix_Graph.png",
+            "timesteps": false
+        },
+        "Training":{
+            "Text": "In dit experiment is de groei van reward te zien in de 'Grand Prix' game-mode. Er is te zien dat de reward een sterke groei heeft tot ongeveer 500.000 steps, waarna de reward begint te dalen en dan weer te stijgen. Er is dus nog verandering in de reward maar deze blijft rond hetzelfde gebied zitten.",
+            "Graph": "images/GrandPrix/GrandPrix_Graph.png",
+            "Video": ["https://www.youtube.com/embed/dIJ7GvAnXKA", "https://www.youtube.com/embed/02nDFDuD4yc", "https://www.youtube.com/embed/lorRHYxir8A", "https://www.youtube.com/embed/B3QDTXjK__Q", "https://www.youtube.com/embed/TFfQIz2BNcY"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        }
+    },
+    "RewardFunctions": {
+        "Algemeen": {
+            "Text": "In dit experiment zijn verschillen Reward Functions getest, waardoor het duidelijk wordt welke Reward Functions de beste resultaten leveren.",
+            "Graph": "images/RewardFunctions/RewardFunctions.png",
+            "timesteps": false
+        },
+        "Standard": {
+            "Text": "In dit experiment is de standaard Reward Function te zien. Deze Reward Function geeft alleen beloningen voor het halen van checkpoint en straffen voor het rijden tegen muren. Er is te zien dat de reward eerst groeit, waarnaa deze daalt en niet meer terug komt op het niveau waar het eerst op was.",
+            "Graph": "images/RewardFunctions/Standard.png",
+            "Video": ["https://www.youtube.com/embed/Ffe6LA-gxEg", "https://www.youtube.com/embed/YNuqw5ETq1k", "https://www.youtube.com/embed/hc4iFq3l_G8", "https://www.youtube.com/embed/Mzy5v2z4Ydo", "https://www.youtube.com/embed/7VlCaM-Y3Eo"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "SpeedLenient": {
+            "Text": "In dit experiment is de Reward Function te zien die buiten de standaard reward ook een reward toekent aan het met vol gas rijden. Er is te zien dat de reward in de gehele trainingperiode stijgt, maar de episode lengte blijft ook stijgen. De AI kiest er dus voor om niet optimaal te rijden, omdat het ook beloning krijgt voor met vol gas te rijden.",
+            "Graph": "images/RewardFunctions/SpeedLenient.png",
+            "Video": ["https://www.youtube.com/embed/8LjxLuTKLno", "https://www.youtube.com/embed/2b-k4Ib56s4", "https://www.youtube.com/embed/6LhV7EqXyno", "https://www.youtube.com/embed/mJjiONAre1Q", "https://www.youtube.com/embed/Yhx5hNNgceI"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "Surface": {
+            "Text": "In dit experiment is de Reward Function te zien die buiten de standaard reward ook een reward toekent aan het rijden op de weg in tegenstelling tot op het zand rijden. Er is te zien dat de reward een constant groei heeft tijdens de gehele trainingsperiode.",
+            "Graph": "images/RewardFunctions/Surface.png",
+            "Video": ["https://www.youtube.com/embed/f6ApVIztuKE", "https://www.youtube.com/embed/BXblGMaugwY", "https://www.youtube.com/embed/IVfGJJ1zLro", "https://www.youtube.com/embed/-qHM-YJq8VU", "https://www.youtube.com/embed/SwCg4mSId0A"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        },
+        "SurfaceSpeed": {
+            "Text": "In dit experiment is de Reward Function te zien die buiten de standaard beide het rijden op de web beloond en het met vol gas rijden beloond. Er is te zien dat er een constante groei in de reward is door de gehele trainingsperiode.",
+            "Graph": "images/RewardFunctions/SurfaceSpeed.png",
+            "Video": ["https://www.youtube.com/embed/mYYTH7vYm0Y", "https://www.youtube.com/embed/cF-ZaF18Nx0", "https://www.youtube.com/embed/Dr3dc3WweC0", "https://www.youtube.com/embed/QZAafW6nk2c", "https://www.youtube.com/embed/j8y0T8CjZgQ"],
+            "timesteps": true,
+            "timestep_options": [100000, 200000, 500000, 750000, 1000000]
+        }
+    }
+}
